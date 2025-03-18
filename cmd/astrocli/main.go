@@ -1,8 +1,9 @@
 package main
 
 import (
-	"astrogo-cli/internal/cli/commands"
-	"astrogo-cli/internal/service"
+	"astrogo-cli/internal/cli/commands/database"
+	"astrogo-cli/internal/cli/commands/horoscope"
+	"astrogo-cli/internal/cli/commands/user"
 	"fmt"
 	"os"
 
@@ -16,42 +17,12 @@ func main() {
 		Long:  `A command-line astrology application that provides horoscopes and birth chart analysis.`,
 	}
 
-	// Star sign command
-	var sign string
-	var date string
-	starSignCmd := &cobra.Command{
-		Use:   "starsign",
-		Short: "Get your horoscope based on star sign",
-		Run: func(cmd *cobra.Command, args []string) {
-			if sign == "" {
-				fmt.Println("Error: Star sign is required")
-				sign = commands.SelectSign()
-			}
-
-			// Format: if no date specified, use today
-			displayDate := "today"
-			if date != "" {
-				displayDate = date
-			}
-
-			fmt.Printf("Sign: %v\n", sign)
-
-			horoscope, err := service.GetStarSignHoroscope(sign, date)
-			if err != nil {
-				fmt.Printf("Error: %v\n", err)
-				return
-			}
-
-			fmt.Printf("🌟 Horoscope for %s (%s):\n\n%s\n", sign, displayDate, horoscope)
-		},
-	}
-
-	// Add flags to the star sign command
-	starSignCmd.Flags().StringVarP(&sign, "sign", "s", "", "Your zodiac sign (e.g., aries, taurus, gemini)")
-	starSignCmd.Flags().StringVarP(&date, "date", "d", "", "Date for horoscope (YYYY-MM-DD), defaults to today")
-
-	// Add the command to the root command
-	rootCmd.AddCommand(starSignCmd)
+	// Add the commands to the root command
+	rootCmd.AddCommand(
+		horoscope.NewStarSignCmd(),
+		user.NewUserCmd(),
+		database.NewDatabaseCmd(),
+	)
 
 	// Execute the root command
 	if err := rootCmd.Execute(); err != nil {

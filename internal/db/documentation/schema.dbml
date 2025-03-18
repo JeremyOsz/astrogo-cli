@@ -1,0 +1,67 @@
+// Users table
+Table users {
+  id integer [pk]
+  name varchar
+  gender varchar
+}
+
+// Report Types table
+Table report_types {
+  id integer [pk]
+  name varchar
+  description text
+}
+
+// Reports table
+Table reports {
+  id integer [pk]
+  user_id integer [ref: > users.id]
+  report_type_id integer [ref: > report_types.id]
+  generated_at datetime
+  is_primary boolean
+  additional_info text
+}
+
+// Zodiac Signs table
+Table zodiac_signs {
+  id integer [pk]
+  name varchar
+  element_id integer [ref: > elements.id]
+  ruling_planet_id integer [ref: > planets.id]
+  modality_id integer [ref: > modalities.id]
+}
+
+// Planets table
+Table planets {
+  id integer [pk]
+  name varchar
+  element_id integer [ref: > elements.id]
+  description text
+}
+
+// Elements table
+Table elements {
+  id integer [pk]
+  name varchar
+  description text
+}
+
+// Modalities table
+Table modalities {
+  id integer [pk]
+  name varchar
+  description text
+}
+
+// Birth Chart table (specific to a report)
+Table birth_charts {
+  id integer [pk]
+  report_id integer [ref: > reports.id]
+  sun_sign_id integer [ref: > zodiac_signs.id]
+  moon_sign_id integer [ref: > zodiac_signs.id]
+  rising_sign_id integer [ref: > zodiac_signs.id]
+  planets_data jsonb
+  houses_data jsonb
+  aspects_data jsonb
+}
+

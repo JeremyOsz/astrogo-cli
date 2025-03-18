@@ -1,4 +1,4 @@
-package commands
+package horoscope
 
 import (
 	"astrogo-cli/internal/cli/ui/result"
@@ -26,7 +26,7 @@ func SelectSign() string {
 	}
 
 	// List possible star signs
-	selectProgram := tea.NewProgram(result.IntiialResultModel(choices))
+	selectProgram := tea.NewProgram(result.InitialResultModel(choices))
 	m, err := selectProgram.Run()
 	if err != nil {
 		panic(err)

@@ -52,7 +52,7 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 
 func (m Model) View() string {
 	s := strings.Builder{}
-	s.WriteString("What kind of Bubble Tea would you like to order?\n\n")
+	s.WriteString("Select your zodiac sign:\n\n")
 
 	for i := 0; i < len(m.choices); i++ {
 		if m.cursor == i {
@@ -68,13 +68,11 @@ func (m Model) View() string {
 	return s.String()
 }
 
-func IntiialResultModel(choices []string) Model {
-	// var choices = []string{"Sagittarius", "Capricorn", "Scorpio"}
-
+func InitialResultModel(choices []string) Model {
 	return Model{
 		choices: choices,
 		cursor:  0,
-		Choice:  "Taro",
+		Choice:  "",
 	}
 }
 

@@ -1,0 +1,68 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Natal Chart Interpretations Schema",
+  "description": "Schema for validating natal chart interpretation data",
+  "type": "object",
+  "required": ["version", "categories"],
+  "properties": {
+    "version": {
+      "type": "string",
+      "description": "Schema version identifier",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "categories": {
+      "type": "object",
+      "required": ["signs", "planets", "houses", "aspects"],
+      "properties": {
+        "signs": {
+          "type": "object",
+          "description": "Zodiac sign interpretations",
+          "additionalProperties": {
+            "$ref": "./signs/schema.json"
+          }
+        },
+        "planets": {
+          "type": "object",
+          "description": "Planetary interpretations",
+          "additionalProperties": {
+            "$ref": "./planets/schema.json"
+          }
+        },
+        "houses": {
+          "type": "object",
+          "description": "House interpretations",
+          "additionalProperties": {
+            "$ref": "./houses/schema.json"
+          }
+        },
+        "aspects": {
+          "type": "object",
+          "description": "Aspect interpretations",
+          "additionalProperties": {
+            "$ref": "./aspects/schema.json"
+          }
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Additional metadata about the interpretations",
+      "properties": {
+        "lastUpdated": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Timestamp of last update"
+        },
+        "source": {
+          "type": "string",
+          "description": "Source of the interpretations"
+        },
+        "language": {
+          "type": "string",
+          "description": "Primary language of the interpretations",
+          "default": "en"
+        }
+      }
+    }
+  }
+}

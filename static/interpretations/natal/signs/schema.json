@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["description", "strengths", "weaknesses", "rising", "sun", "moon"],
+  "properties": {
+    "description": {
+      "type": "string",
+      "description": "General description of the zodiac sign"
+    },
+    "strengths": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "List of key strengths for the sign"
+    },
+    "weaknesses": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "List of key weaknesses for the sign"
+    },
+    "rising": {
+      "type": "object",
+      "required": ["description"],
+      "properties": {
+        "description": {
+          "type": "string",
+          "description": "Interpretation for the sign as a rising sign"
+        }
+      }
+    },
+    "sun": {
+      "type": "object",
+      "required": ["description", "houses"],
+      "properties": {
+        "description": {
+          "type": "string",
+          "description": "Interpretation for the sign as a sun sign"
+        },
+        "houses": {
+          "type": "object",
+          "required": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],
+          "properties": {
+            "1": { "$ref": "#/definitions/house" },
+            "2": { "$ref": "#/definitions/house" },
+            "3": { "$ref": "#/definitions/house" },
+            "4": { "$ref": "#/definitions/house" },
+            "5": { "$ref": "#/definitions/house" },
+            "6": { "$ref": "#/definitions/house" },
+            "7": { "$ref": "#/definitions/house" },
+            "8": { "$ref": "#/definitions/house" },
+            "9": { "$ref": "#/definitions/house" },
+            "10": { "$ref": "#/definitions/house" },
+            "11": { "$ref": "#/definitions/house" },
+            "12": { "$ref": "#/definitions/house" }
+          }
+        }
+      }
+    },
+    "moon": {
+      "type": "object",
+      "required": ["description"],
+      "properties": {
+        "description": {
+          "type": "string",
+          "description": "Interpretation for the sign as a moon sign"
+        }
+      }
+    }
+  },
+  "definitions": {
+    "house": {
+      "type": "object",
+      "required": ["description"],
+      "properties": {
+        "description": {
+          "type": "string",
+          "description": "Interpretation for the sign in this house position"
+        }
+      }
+    }
+  }
+} 

@@ -1,0 +1,102 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2024-03-19",
+  "signs": {
+    "aries": {
+      "file": "aries.json",
+      "element": "fire",
+      "modality": "cardinal",
+      "ruling_planet": "mars",
+      "degree_range": [0, 30],
+      "order": 1
+    },
+    "taurus": {
+      "file": "taurus.json",
+      "element": "earth",
+      "modality": "fixed",
+      "ruling_planet": "venus",
+      "degree_range": [30, 60],
+      "order": 2
+    },
+    "gemini": {
+      "file": "gemini.json",
+      "element": "air",
+      "modality": "mutable",
+      "ruling_planet": "mercury",
+      "degree_range": [60, 90],
+      "order": 3
+    },
+    "cancer": {
+      "file": "cancer.json",
+      "element": "water",
+      "modality": "cardinal",
+      "ruling_planet": "moon",
+      "degree_range": [90, 120],
+      "order": 4
+    },
+    "leo": {
+      "file": "leo.json",
+      "element": "fire",
+      "modality": "fixed",
+      "ruling_planet": "sun",
+      "degree_range": [120, 150],
+      "order": 5
+    },
+    "virgo": {
+      "file": "virgo.json",
+      "element": "earth",
+      "modality": "mutable",
+      "ruling_planet": "mercury",
+      "degree_range": [150, 180],
+      "order": 6
+    },
+    "libra": {
+      "file": "libra.json",
+      "element": "air",
+      "modality": "cardinal",
+      "ruling_planet": "venus",
+      "degree_range": [180, 210],
+      "order": 7
+    },
+    "scorpio": {
+      "file": "scorpio.json",
+      "element": "water",
+      "modality": "fixed",
+      "ruling_planet": "mars",
+      "degree_range": [210, 240],
+      "order": 8
+    },
+    "sagittarius": {
+      "file": "sagittarius.json",
+      "element": "fire",
+      "modality": "mutable",
+      "ruling_planet": "jupiter",
+      "degree_range": [240, 270],
+      "order": 9
+    },
+    "capricorn": {
+      "file": "capricorn.json",
+      "element": "earth",
+      "modality": "cardinal",
+      "ruling_planet": "saturn",
+      "degree_range": [270, 300],
+      "order": 10
+    },
+    "aquarius": {
+      "file": "aquarius.json",
+      "element": "air",
+      "modality": "fixed",
+      "ruling_planet": "uranus",
+      "degree_range": [300, 330],
+      "order": 11
+    },
+    "pisces": {
+      "file": "pisces.json",
+      "element": "water",
+      "modality": "mutable",
+      "ruling_planet": "neptune",
+      "degree_range": [330, 360],
+      "order": 12
+    }
+  }
+} 

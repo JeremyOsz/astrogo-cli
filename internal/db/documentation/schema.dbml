@@ -66,6 +66,23 @@ Table birth_charts {
   aspects_data json
 }
 
+// Birth Data table (stores location and timezone for birth charts)
+Table birth_data {
+  id integer [pk]
+  user integer [ref: > users.id, not null, unique]
+  birth_date date [not null]
+  birth_time time [not null]
+  location_name varchar [not null]
+  timezone_name varchar [not null]
+  created_at datetime [default: `CURRENT_TIMESTAMP`]
+  is_primary boolean [default: false]
+  pronouns varchar [not null]
+  sexual_orientation varchar [not null]
+  is_romantic_relation boolean [default: false]
+  is_family_relation boolean [default: false]
+  is_friendship_relation boolean [default: false]
+}
+
 // Migrations table (for tracking seed data)
 Table migrations {
   version varchar [pk]

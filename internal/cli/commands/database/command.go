@@ -28,7 +28,10 @@ func NewDatabaseCmd() *cobra.Command {
 	startDBCmd.Flags().IntVarP(&port, "port", "p", 8080, "Port to run the database service on")
 
 	// Add subcommands to db command
-	dbCmd.AddCommand(startDBCmd, NewTestDBCmd())
+	dbCmd.AddCommand(
+		startDBCmd,
+		NewTestDBCmd(),
+	)
 
 	return dbCmd
 }

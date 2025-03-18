@@ -15,6 +15,7 @@ func InitAllSchemas(db *sql.DB) error {
 		{"astrological", InitAstrologicalSchema},
 		{"user", InitUserSchema},
 		{"report", InitReportSchema},
+		{"birth_data", InitBirthDataSchema},
 	}
 
 	for _, s := range schemas {

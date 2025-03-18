@@ -1,31 +1,32 @@
 // Users table
 Table users {
   id integer [pk]
-  name varchar
-  gender varchar
+  username varchar [not null, unique]
+  email varchar [not null, unique]
+  created_at datetime [default: `CURRENT_TIMESTAMP`]
 }
 
 // Report Types table
 Table report_types {
   id integer [pk]
-  name varchar
+  name varchar [not null]
   description text
 }
 
 // Reports table
 Table reports {
   id integer [pk]
-  user_id integer [ref: > users.id]
-  report_type_id integer [ref: > report_types.id]
-  generated_at datetime
-  is_primary boolean
+  user_id integer [ref: > users.id, not null]
+  report_type_id integer [ref: > report_types.id, not null]
+  generated_at datetime [default: `CURRENT_TIMESTAMP`]
+  is_primary boolean [default: false]
   additional_info text
 }
 
 // Zodiac Signs table
 Table zodiac_signs {
   id integer [pk]
-  name varchar
+  name varchar [not null]
   element_id integer [ref: > elements.id]
   ruling_planet_id integer [ref: > planets.id]
   modality_id integer [ref: > modalities.id]
@@ -34,7 +35,7 @@ Table zodiac_signs {
 // Planets table
 Table planets {
   id integer [pk]
-  name varchar
+  name varchar [not null]
   element_id integer [ref: > elements.id]
   description text
 }
@@ -42,26 +43,34 @@ Table planets {
 // Elements table
 Table elements {
   id integer [pk]
-  name varchar
+  name varchar [not null]
   description text
 }
 
 // Modalities table
 Table modalities {
   id integer [pk]
-  name varchar
+  name varchar [not null]
   description text
 }
 
 // Birth Chart table (specific to a report)
 Table birth_charts {
   id integer [pk]
-  report_id integer [ref: > reports.id]
-  sun_sign_id integer [ref: > zodiac_signs.id]
-  moon_sign_id integer [ref: > zodiac_signs.id]
-  rising_sign_id integer [ref: > zodiac_signs.id]
-  planets_data jsonb
-  houses_data jsonb
-  aspects_data jsonb
+  report_id integer [ref: > reports.id, not null]
+  sun_sign_id integer [ref: > zodiac_signs.id, not null]
+  moon_sign_id integer [ref: > zodiac_signs.id, not null]
+  rising_sign_id integer [ref: > zodiac_signs.id, not null]
+  planets_data json
+  houses_data json
+  aspects_data json
+}
+
+// Migrations table (for tracking seed data)
+Table migrations {
+  version varchar [pk]
+  name varchar [not null]
+  applied_at datetime [default: `CURRENT_TIMESTAMP`]
+  checksum varchar [not null]
 }
 

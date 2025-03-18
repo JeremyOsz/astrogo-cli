@@ -1,0 +1,60 @@
+{
+  "description": "Scorpio is the eighth sign of the zodiac and is known for its intense and transformative nature. People born under this sign are often seen as being very passionate and mysterious. They are known for their ability to see beneath the surface and handle deep emotions.",
+  "strengths": [
+    "Passionate",
+    "Resourceful",
+    "Determined"
+  ],
+  "weaknesses": [
+    "Jealous",
+    "Secretive",
+    "Manipulative"
+  ],
+  "rising": {
+    "description": "Scorpio rising people often appear intense and mysterious. They have a powerful presence and are known for their ability to see through others."
+  },
+  "sun": {
+    "description": "Scorpio sun people are naturally passionate and transformative. They have a strong desire for depth and often excel in roles that require emotional insight.",
+    "houses": {
+      "1": {
+        "description": "With Scorpio sun in the first house, you have an intense, passionate personality. You're known for your mysterious nature and emotional depth. Your physical appearance often reflects your powerful presence."
+      },
+      "2": {
+        "description": "Scorpio sun in the second house indicates a passionate approach to finances and values. You're likely to be resourceful with money and value power. Your self-worth is tied to your emotional depth."
+      },
+      "3": {
+        "description": "With Scorpio sun in the third house, you communicate with intensity. You have a penetrating approach to learning and often share knowledge with emotional depth. Your siblings may be intense or mysterious."
+      },
+      "4": {
+        "description": "Scorpio sun in the fourth house suggests an intense and transformative home environment. You may have had a powerful upbringing and often create spaces that reflect your emotional depth."
+      },
+      "5": {
+        "description": "With Scorpio sun in the fifth house, you express your creativity through passion. You're attracted to intense partners and may have children who are emotional and powerful."
+      },
+      "6": {
+        "description": "Scorpio sun in the sixth house indicates a passionate approach to work and health. You're likely to be drawn to transformative professions and need emotional depth in your daily routines."
+      },
+      "7": {
+        "description": "With Scorpio sun in the seventh house, you seek intense partnerships. You're attracted to powerful partners and value emotional depth in relationships."
+      },
+      "8": {
+        "description": "Scorpio sun in the eighth house suggests a passionate approach to shared resources and transformation. You're likely to be interested in psychological healing and power dynamics."
+      },
+      "9": {
+        "description": "With Scorpio sun in the ninth house, you approach higher learning and philosophy with intensity. You're likely to be interested in transformative forms of spirituality."
+      },
+      "10": {
+        "description": "Scorpio sun in the tenth house indicates a career that involves power and transformation. You're likely to excel in fields that require emotional insight and determination."
+      },
+      "11": {
+        "description": "With Scorpio sun in the eleventh house, you seek intense friendships. You're likely to be involved in groups that emphasize transformation and power."
+      },
+      "12": {
+        "description": "Scorpio sun in the twelfth house suggests that your intense nature may be expressed in private or behind the scenes. You may need to learn to balance power with spiritual growth."
+      }
+    }
+  },
+  "moon": {
+    "description": "Scorpio moon people have a strong need for emotional depth and transformation. They process emotions intensely and often have a mysterious emotional nature."
+  }
+} 

@@ -1,0 +1,330 @@
+{
+  "signs": {
+    "aries": {
+      "element": "fire",
+      "modality": "cardinal",
+      "ruling_planet": "Mars",
+      "degrees": "0-30"
+    },
+    "taurus": {
+      "element": "earth",
+      "modality": "fixed",
+      "ruling_planet": "Venus",
+      "degrees": "30-60"
+    },
+    "gemini": {
+      "element": "air",
+      "modality": "mutable",
+      "ruling_planet": "Mercury",
+      "degrees": "60-90"
+    },
+    "cancer": {
+      "element": "water",
+      "modality": "cardinal",
+      "ruling_planet": "Moon",
+      "degrees": "90-120"
+    },
+    "leo": {
+      "element": "fire",
+      "modality": "fixed",
+      "ruling_planet": "Sun",
+      "degrees": "120-150"
+    },
+    "virgo": {
+      "element": "earth",
+      "modality": "mutable",
+      "ruling_planet": "Mercury",
+      "degrees": "150-180"
+    },
+    "libra": {
+      "element": "air",
+      "modality": "cardinal",
+      "ruling_planet": "Venus",
+      "degrees": "180-210"
+    },
+    "scorpio": {
+      "element": "water",
+      "modality": "fixed",
+      "ruling_planet": "Mars",
+      "degrees": "210-240"
+    },
+    "sagittarius": {
+      "element": "fire",
+      "modality": "mutable",
+      "ruling_planet": "Jupiter",
+      "degrees": "240-270"
+    },
+    "capricorn": {
+      "element": "earth",
+      "modality": "cardinal",
+      "ruling_planet": "Saturn",
+      "degrees": "270-300"
+    },
+    "aquarius": {
+      "element": "air",
+      "modality": "fixed",
+      "ruling_planet": "Uranus",
+      "degrees": "300-330"
+    },
+    "pisces": {
+      "element": "water",
+      "modality": "mutable",
+      "ruling_planet": "Neptune",
+      "degrees": "330-360"
+    }
+  },
+  "houses": {
+    "1st": {
+      "name": "Ascendant",
+      "natural_sign": "Aries",
+      "natural_planet": "Mars",
+      "keywords": ["self", "personality", "appearance", "first impressions"]
+    },
+    "2nd": {
+      "name": "House of Values",
+      "natural_sign": "Taurus",
+      "natural_planet": "Venus",
+      "keywords": ["money", "possessions", "values", "self-worth"]
+    },
+    "3rd": {
+      "name": "House of Communication",
+      "natural_sign": "Gemini",
+      "natural_planet": "Mercury",
+      "keywords": ["communication", "siblings", "short journeys", "learning"]
+    },
+    "4th": {
+      "name": "IC",
+      "natural_sign": "Cancer",
+      "natural_planet": "Moon",
+      "keywords": ["home", "family", "roots", "private life"]
+    },
+    "5th": {
+      "name": "House of Pleasure",
+      "natural_sign": "Leo",
+      "natural_planet": "Sun",
+      "keywords": ["creativity", "children", "romance", "entertainment"]
+    },
+    "6th": {
+      "name": "House of Health",
+      "natural_sign": "Virgo",
+      "natural_planet": "Mercury",
+      "keywords": ["health", "work", "service", "daily routines"]
+    },
+    "7th": {
+      "name": "Descendant",
+      "natural_sign": "Libra",
+      "natural_planet": "Venus",
+      "keywords": ["partnerships", "marriage", "open enemies", "relationships"]
+    },
+    "8th": {
+      "name": "House of Transformation",
+      "natural_sign": "Scorpio",
+      "natural_planet": "Mars",
+      "keywords": ["sex", "death", "shared resources", "transformation"]
+    },
+    "9th": {
+      "name": "House of Philosophy",
+      "natural_sign": "Sagittarius",
+      "natural_planet": "Jupiter",
+      "keywords": ["higher education", "travel", "philosophy", "religion"]
+    },
+    "10th": {
+      "name": "MC",
+      "natural_sign": "Capricorn",
+      "natural_planet": "Saturn",
+      "keywords": ["career", "public status", "authority", "achievement"]
+    },
+    "11th": {
+      "name": "House of Friends",
+      "natural_sign": "Aquarius",
+      "natural_planet": "Uranus",
+      "keywords": ["friends", "groups", "hopes", "wishes"]
+    },
+    "12th": {
+      "name": "House of Secrets",
+      "natural_sign": "Pisces",
+      "natural_planet": "Neptune",
+      "keywords": ["secrets", "hidden enemies", "sorrow", "self-undoing"]
+    }
+  },
+  "planets": {
+    "sun": {
+      "dignity": {
+        "rulership": "Leo",
+        "exaltation": "Aries",
+        "detriment": "Aquarius",
+        "fall": "Libra"
+      },
+      "keywords": ["ego", "identity", "vitality", "consciousness"]
+    },
+    "moon": {
+      "dignity": {
+        "rulership": "Cancer",
+        "exaltation": "Taurus",
+        "detriment": "Capricorn",
+        "fall": "Scorpio"
+      },
+      "keywords": ["emotions", "instincts", "nurturing", "receptivity"]
+    },
+    "mercury": {
+      "dignity": {
+        "rulership": ["Gemini", "Virgo"],
+        "exaltation": "Virgo",
+        "detriment": ["Sagittarius", "Pisces"],
+        "fall": "Pisces"
+      },
+      "keywords": ["communication", "intellect", "adaptability", "learning"]
+    },
+    "venus": {
+      "dignity": {
+        "rulership": ["Taurus", "Libra"],
+        "exaltation": "Pisces",
+        "detriment": ["Scorpio", "Aries"],
+        "fall": "Virgo"
+      },
+      "keywords": ["love", "beauty", "harmony", "values"]
+    },
+    "mars": {
+      "dignity": {
+        "rulership": ["Aries", "Scorpio"],
+        "exaltation": "Capricorn",
+        "detriment": ["Libra", "Taurus"],
+        "fall": "Cancer"
+      },
+      "keywords": ["action", "desire", "aggression", "initiative"]
+    },
+    "jupiter": {
+      "dignity": {
+        "rulership": ["Sagittarius", "Pisces"],
+        "exaltation": "Cancer",
+        "detriment": ["Gemini", "Virgo"],
+        "fall": "Capricorn"
+      },
+      "keywords": ["expansion", "optimism", "growth", "philosophy"]
+    },
+    "saturn": {
+      "dignity": {
+        "rulership": ["Capricorn", "Aquarius"],
+        "exaltation": "Libra",
+        "detriment": ["Cancer", "Leo"],
+        "fall": "Aries"
+      },
+      "keywords": ["structure", "limitation", "responsibility", "time"]
+    },
+    "uranus": {
+      "dignity": {
+        "rulership": "Aquarius",
+        "exaltation": "Scorpio",
+        "detriment": "Leo",
+        "fall": "Taurus"
+      },
+      "keywords": ["innovation", "rebellion", "sudden change", "freedom"]
+    },
+    "neptune": {
+      "dignity": {
+        "rulership": "Pisces",
+        "exaltation": "Leo",
+        "detriment": "Virgo",
+        "fall": "Aquarius"
+      },
+      "keywords": ["illusion", "inspiration", "mysticism", "compassion"]
+    },
+    "pluto": {
+      "dignity": {
+        "rulership": "Scorpio",
+        "exaltation": "Aries",
+        "detriment": "Taurus",
+        "fall": "Libra"
+      },
+      "keywords": ["transformation", "power", "regeneration", "secrets"]
+    }
+  },
+  "aspects": {
+    "conjunction": {
+      "degrees": 0,
+      "orb": 8,
+      "nature": "neutral",
+      "keywords": ["union", "new beginnings", "focus"]
+    },
+    "sextile": {
+      "degrees": 60,
+      "orb": 6,
+      "nature": "harmonious",
+      "keywords": ["opportunity", "support", "ease"]
+    },
+    "square": {
+      "degrees": 90,
+      "orb": 8,
+      "nature": "challenging",
+      "keywords": ["tension", "conflict", "growth"]
+    },
+    "trine": {
+      "degrees": 120,
+      "orb": 8,
+      "nature": "harmonious",
+      "keywords": ["flow", "ease", "talent"]
+    },
+    "opposition": {
+      "degrees": 180,
+      "orb": 8,
+      "nature": "challenging",
+      "keywords": ["polarity", "awareness", "balance"]
+    },
+    "semisextile": {
+      "degrees": 30,
+      "orb": 3,
+      "nature": "minor",
+      "keywords": ["adjustment", "adaptation"]
+    },
+    "semisquare": {
+      "degrees": 45,
+      "orb": 4,
+      "nature": "minor",
+      "keywords": ["friction", "adjustment"]
+    },
+    "sesquisquare": {
+      "degrees": 135,
+      "orb": 4,
+      "nature": "minor",
+      "keywords": ["tension", "adjustment"]
+    },
+    "quincunx": {
+      "degrees": 150,
+      "orb": 3,
+      "nature": "minor",
+      "keywords": ["adjustment", "adaptation"]
+    }
+  },
+  "elements": {
+    "fire": {
+      "signs": ["Aries", "Leo", "Sagittarius"],
+      "keywords": ["warm", "dry", "expansive", "enthusiastic"]
+    },
+    "earth": {
+      "signs": ["Taurus", "Virgo", "Capricorn"],
+      "keywords": ["cold", "dry", "stable", "practical"]
+    },
+    "air": {
+      "signs": ["Gemini", "Libra", "Aquarius"],
+      "keywords": ["warm", "wet", "light", "intellectual"]
+    },
+    "water": {
+      "signs": ["Cancer", "Scorpio", "Pisces"],
+      "keywords": ["cold", "wet", "fluid", "emotional"]
+    }
+  },
+  "modalities": {
+    "cardinal": {
+      "signs": ["Aries", "Cancer", "Libra", "Capricorn"],
+      "keywords": ["initiative", "action", "leadership", "dynamic"]
+    },
+    "fixed": {
+      "signs": ["Taurus", "Leo", "Scorpio", "Aquarius"],
+      "keywords": ["stability", "determination", "resistance", "persistence"]
+    },
+    "mutable": {
+      "signs": ["Gemini", "Virgo", "Sagittarius", "Pisces"],
+      "keywords": ["adaptability", "flexibility", "change", "versatility"]
+    }
+  }
+} 

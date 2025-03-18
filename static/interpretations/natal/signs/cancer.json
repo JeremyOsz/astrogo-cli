@@ -1,0 +1,60 @@
+{
+  "description": "Cancer is the fourth sign of the zodiac and is known for its nurturing and emotional nature. People born under this sign are often seen as being very caring and protective. They are known for their strong connection to home and family.",
+  "strengths": [
+    "Nurturing",
+    "Protective",
+    "Intuitive"
+  ],
+  "weaknesses": [
+    "Moody",
+    "Overly sensitive",
+    "Possessive"
+  ],
+  "rising": {
+    "description": "Cancer rising people often appear nurturing and protective. They have a warm, caring presence and are known for their ability to create a comfortable environment for others."
+  },
+  "sun": {
+    "description": "Cancer sun people are deeply emotional and nurturing. They have a strong connection to home and family, and often excel in caregiving roles.",
+    "houses": {
+      "1": {
+        "description": "With Cancer sun in the first house, you have a nurturing, protective personality. You're known for your emotional sensitivity and caring nature. Your physical appearance often reflects your emotional depth."
+      },
+      "2": {
+        "description": "Cancer sun in the second house indicates an emotional approach to finances and values. You're likely to be careful with money and value security. Your self-worth is tied to your ability to provide for others."
+      },
+      "3": {
+        "description": "With Cancer sun in the third house, you communicate with emotional depth. You have a nurturing approach to learning and often share knowledge in a caring way. Your siblings may be emotionally significant."
+      },
+      "4": {
+        "description": "Cancer sun in the fourth house suggests a strong connection to home and family. You may have had a nurturing upbringing and often create spaces that feel emotionally safe and comfortable."
+      },
+      "5": {
+        "description": "With Cancer sun in the fifth house, you express your creativity through emotional connection. You're attracted to nurturing partners and may have children who are emotionally sensitive."
+      },
+      "6": {
+        "description": "Cancer sun in the sixth house indicates a nurturing approach to work and health. You're likely to be drawn to caregiving professions and need emotional balance in your daily routines."
+      },
+      "7": {
+        "description": "With Cancer sun in the seventh house, you seek emotionally nurturing partnerships. You're attracted to caring partners and value emotional security in relationships."
+      },
+      "8": {
+        "description": "Cancer sun in the eighth house suggests an emotional approach to shared resources and transformation. You're likely to be interested in emotional healing and psychological growth."
+      },
+      "9": {
+        "description": "With Cancer sun in the ninth house, you approach higher learning and philosophy with emotional depth. You're likely to be interested in emotional and spiritual growth."
+      },
+      "10": {
+        "description": "Cancer sun in the tenth house indicates a career that involves nurturing or caregiving. You're likely to excel in fields that require emotional intelligence and protective qualities."
+      },
+      "11": {
+        "description": "With Cancer sun in the eleventh house, you seek emotionally supportive friendships. You're likely to be involved in groups that emphasize care and protection."
+      },
+      "12": {
+        "description": "Cancer sun in the twelfth house suggests that your nurturing nature may be expressed in private or behind the scenes. You may need to learn to balance emotional giving with self-care."
+      }
+    }
+  },
+  "moon": {
+    "description": "Cancer moon people have a strong need for emotional security and nurturing. They process emotions deeply and often have a strong connection to family and home."
+  }
+} 

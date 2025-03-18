@@ -1,0 +1,60 @@
+{
+  "description": "Pisces is the twelfth sign of the zodiac and is known for its compassionate and intuitive nature. People born under this sign are often seen as being very artistic and spiritually inclined. They are known for their ability to empathize and connect with others on a deep level.",
+  "strengths": [
+    "Compassionate",
+    "Intuitive",
+    "Artistic"
+  ],
+  "weaknesses": [
+    "Escapist",
+    "Overly idealistic",
+    "Vulnerable"
+  ],
+  "rising": {
+    "description": "Pisces rising people often appear dreamy and compassionate. They have a gentle presence and are known for their ability to empathize and connect with others."
+  },
+  "sun": {
+    "description": "Pisces sun people are naturally compassionate and intuitive. They have a strong desire for spiritual connection and often excel in roles that require empathy and creativity.",
+    "houses": {
+      "1": {
+        "description": "With Pisces sun in the first house, you have a compassionate, intuitive personality. You're known for your artistic nature and spiritual sensitivity. Your physical appearance often reflects your dreamy nature."
+      },
+      "2": {
+        "description": "Pisces sun in the second house indicates a compassionate approach to finances and values. You're likely to spend money on art and spiritual pursuits. Your self-worth is tied to your ability to help others."
+      },
+      "3": {
+        "description": "With Pisces sun in the third house, you communicate with empathy. You have an intuitive approach to learning and often share knowledge with compassion. Your siblings may be artistic or spiritual."
+      },
+      "4": {
+        "description": "Pisces sun in the fourth house suggests a dreamy and artistic home environment. You may have had a spiritual upbringing and often create spaces that reflect your artistic nature."
+      },
+      "5": {
+        "description": "With Pisces sun in the fifth house, you express your creativity through compassion. You're attracted to artistic partners and may have children who are intuitive and creative."
+      },
+      "6": {
+        "description": "Pisces sun in the sixth house indicates a compassionate approach to work and health. You're likely to be drawn to artistic professions and need spiritual connection in your daily routines."
+      },
+      "7": {
+        "description": "With Pisces sun in the seventh house, you seek compassionate partnerships. You're attracted to artistic partners and value spiritual connection in relationships."
+      },
+      "8": {
+        "description": "Pisces sun in the eighth house suggests a compassionate approach to shared resources and transformation. You're likely to be interested in spiritual healing and psychic abilities."
+      },
+      "9": {
+        "description": "With Pisces sun in the ninth house, you approach higher learning and philosophy with compassion. You're likely to be interested in spiritual and mystical forms of spirituality."
+      },
+      "10": {
+        "description": "Pisces sun in the tenth house indicates a career that involves compassion and creativity. You're likely to excel in fields that require empathy and artistic abilities."
+      },
+      "11": {
+        "description": "With Pisces sun in the eleventh house, you seek compassionate friendships. You're likely to be involved in groups that emphasize spirituality and artistic expression."
+      },
+      "12": {
+        "description": "Pisces sun in the twelfth house suggests that your compassionate nature may be expressed in private or behind the scenes. You may need to learn to balance empathy with spiritual growth."
+      }
+    }
+  },
+  "moon": {
+    "description": "Pisces moon people have a strong need for spiritual connection and compassion. They process emotions through intuition and often have an artistic emotional nature."
+  }
+} 

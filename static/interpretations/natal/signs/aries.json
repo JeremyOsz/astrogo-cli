@@ -1,0 +1,428 @@
+{
+  "name": "Aries",
+  "description": "Aries is the first sign of the zodiac and is known for its energy and enthusiasm. People born under this sign are often seen as being very active and ambitious. They are known for their leadership qualities and for being able to take charge of any situation.",
+  "strengths": [
+    "Energetic",
+    "Independent",
+    "Leadership qualities"
+  ],
+  "weaknesses": [
+    "Impulsive",
+    "Easily bored",
+    "Tends to be too competitive"
+  ],
+  "rising": {
+    "description": "Aries rising people are known for their energy and enthusiasm. They are often seen as being very active and ambitious. They are known for their leadership qualities and for being able to take charge of any situation."
+  },
+  "sun": {
+    "description": "Aries sun people are known for their energy and enthusiasm. They are often seen as being very active and ambitious. They are known for their leadership qualities and for being able to take charge of any situation.",
+    "houses": {
+      "1": {
+        "description": "With Aries sun in the first house, you have a strong sense of self and personal identity. You're naturally assertive and take initiative in life. Your personality is bold and direct, and you often lead with your headstrong nature."
+      },
+      "2": {
+        "description": "Aries sun in the second house indicates a dynamic approach to finances and values. You're likely to earn money through leadership roles or entrepreneurial ventures. Your self-worth is tied to your ability to take action and achieve."
+      },
+      "3": {
+        "description": "With Aries sun in the third house, you communicate with confidence and enthusiasm. You're quick to express your ideas and often take the lead in conversations. Your learning style is hands-on and action-oriented."
+      },
+      "4": {
+        "description": "Aries sun in the fourth house suggests a dynamic home environment. You may have had a competitive or active family life growing up. You bring energy and initiative to domestic matters."
+      },
+      "5": {
+        "description": "With Aries sun in the fifth house, you express your creativity with boldness and enthusiasm. You're naturally competitive in romance and take initiative in relationships. Your children may be energetic and independent."
+      },
+      "6": {
+        "description": "Aries sun in the sixth house indicates an active approach to work and health. You're likely to take initiative in your daily routines and work environment. You may need to learn patience in matters of health."
+      },
+      "7": {
+        "description": "With Aries sun in the seventh house, you seek dynamic partnerships. You're attracted to confident, independent partners and may need to learn cooperation. Your relationships often involve healthy competition."
+      },
+      "8": {
+        "description": "Aries sun in the eighth house suggests intense experiences with shared resources and transformation. You're likely to take initiative in financial partnerships and have a strong drive for personal growth."
+      },
+      "9": {
+        "description": "With Aries sun in the ninth house, you approach higher learning and philosophy with enthusiasm. You're likely to be adventurous in travel and have strong convictions about your beliefs."
+      },
+      "10": {
+        "description": "Aries sun in the tenth house indicates strong career ambitions and leadership potential. You're likely to take initiative in your professional life and seek positions of authority."
+      },
+      "11": {
+        "description": "With Aries sun in the eleventh house, you're likely to take leadership roles in groups and organizations. You have innovative ideas and the drive to implement them. Your friendships often involve shared activities."
+      },
+      "12": {
+        "description": "Aries sun in the twelfth house suggests that your leadership qualities may be expressed in private or behind the scenes. You may need to learn to balance action with reflection and develop patience."
+      }
+    }
+  },
+  "moon": {
+    "description": "Aries moon people are known for their energy and enthusiasm. They are often seen as being very active and ambitious. They are known for their leadership qualities and for being able to take charge of any situation.",
+    "houses": {
+      "1": {
+        "description": "Aries moon in the first house makes individuals assertive, energetic, and spontaneous. They often come across as direct and are not afraid to take action. Their emotions are immediately visible to others, and they may react impulsively."
+      },
+      "2": {
+        "description": "With Aries moon in the second house, individuals value independence and security. They may be assertive when it comes to money or possessions and can be driven to secure their material needs through their own efforts. They may also be quick to act in matters of personal finance."
+      },
+      "3": {
+        "description": "Aries moon in the third house gives individuals an energetic approach to communication and learning. They may be quick thinkers and speak their mind freely. They have a direct way of expressing themselves, which can sometimes be perceived as blunt."
+      },
+      "4": {
+        "description": "With Aries moon in the fourth house, these individuals may have a dynamic and active home life. They seek to create a home that reflects their energy and ambition. They may also experience emotional ups and downs in their family life and may be protective of their loved ones."
+      },
+      "5": {
+        "description": "Aries moon in the fifth house brings a strong desire for self-expression and creativity. These individuals may be passionate about their hobbies, romance, and children. They enjoy taking the lead in creative projects and may be competitive in creative endeavors."
+      },
+      "6": {
+        "description": "Aries moon in the sixth house gives individuals a strong drive to be productive and efficient in their daily routines. They may be quick to take initiative in their work or health matters. However, they may also be prone to emotional burnout if they push themselves too hard."
+      },
+      "7": {
+        "description": "With Aries moon in the seventh house, relationships and partnerships are central to the individual's emotional life. They may seek a partner who is independent and who matches their energy. Conflicts can arise if they feel their autonomy is threatened in relationships."
+      },
+      "8": {
+        "description": "Aries moon in the eighth house creates an intense emotional nature. Individuals may experience deep transformation through emotional experiences or crises. They may also have a powerful drive for intimacy and a fear of being emotionally vulnerable."
+      },
+      "9": {
+        "description": "Aries moon in the ninth house indicates a love for adventure, travel, and seeking knowledge. These individuals may be enthusiastic about expanding their horizons and may feel a deep emotional connection to new experiences, whether intellectual or physical."
+      },
+      "10": {
+        "description": "With Aries moon in the tenth house, these individuals are emotionally driven to achieve success and recognition. They may be highly ambitious in their career and may have a strong desire to take the lead in their professional life. They are emotionally motivated by accomplishment."
+      },
+      "11": {
+        "description": "Aries moon in the eleventh house suggests that these individuals are emotionally connected to their friends and social causes. They may be passionate about group activities and have a strong desire to lead in social or humanitarian endeavors. Their friendships are often energizing and active."
+      },
+      "12": {
+        "description": "Aries moon in the twelfth house may indicate deep-seated emotional needs that are hidden or subconscious. These individuals may be drawn to solitary pursuits or introspection to understand their emotions. They may feel a strong need to retreat and recharge emotionally in private."
+      }
+    }
+  },
+  "mercury": {
+    "description": "Aries mercury individuals are known for their quick thinking and direct communication style. They are often assertive and spontaneous in their expression, which can sometimes be perceived as impulsive or blunt.",
+    "houses": {
+      "1": {
+        "description": "Mercury in the first house in Aries gives individuals a strong sense of self-expression and a need to communicate their thoughts and ideas directly. They may come across as confident and assertive in their communication."
+      },
+      "2": {
+        "description": "With Mercury in the second house in Aries, individuals value independence and self-sufficiency in their communication and learning. They may be assertive in their financial dealings and quick to act on financial opportunities."
+      },
+      "3": {
+        "description": "Aries mercury in the third house indicates a dynamic and energetic approach to communication and learning. Individuals may be quick thinkers and speakers, with a direct and assertive way of expressing themselves."
+      },
+      "4": {
+        "description": "Mercury in the fourth house in Aries suggests a dynamic and active home life, with a focus on communication and learning within the family. Individuals may be protective of their loved ones and express their emotions directly."
+      },
+      "5": {
+        "description": "Aries mercury in the fifth house brings a strong desire for self-expression and creativity in communication. Individuals may be passionate about their hobbies and creative pursuits, and enjoy taking the lead in creative projects."
+      },
+      "6": {
+        "description": "Mercury in the sixth house in Aries gives individuals a strong drive to be productive and efficient in their daily routines. They may be quick to take initiative in their work or health matters, but may also be prone to mental burnout."
+      },
+      "7": {
+        "description": "With Mercury in the seventh house in Aries, relationships and partnerships are central to the individual's communication style. They may seek a partner who matches their energy and independence, and conflicts can arise if they feel their autonomy is threatened."
+      },
+      "8": {
+        "description": "Aries mercury in the eighth house creates an intense and passionate communication style. Individuals may experience deep emotional connections through their communication, and may have a strong drive for intimacy and a fear of emotional vulnerability."
+      },
+      "9": {
+        "description": "Mercury in the ninth house in Aries indicates a love for adventure, travel, and seeking knowledge. Individuals may be enthusiastic about expanding their horizons and may feel a deep emotional connection to new experiences, whether intellectual or physical."
+      },
+      "10": {
+        "description": "With Mercury in the tenth house in Aries, individuals are driven to achieve success and recognition through their communication and intellectual pursuits. They may be highly ambitious in their career and may have a strong desire to take the lead in their professional life."
+      },
+      "11": {
+        "description": "Aries mercury in the eleventh house suggests that individuals are emotionally connected to their friends and social causes. They may be passionate about group activities and have a strong desire to lead in social or humanitarian endeavors."
+      },
+      "12": {
+        "description": "Mercury in the twelfth house in Aries may indicate deep-seated communication needs that are hidden or subconscious. Individuals may be drawn to solitary pursuits or introspection to understand their thoughts and ideas."
+      }
+    }
+  },
+  "venus": {
+    "description": "Aries venus individuals are known for their energetic and spontaneous approach to relationships and values. They are often drawn to independence and freedom in their relationships, and value action and adventure.",
+    "houses": {
+      "1": {
+        "description": "Venus in the first house in Aries gives individuals a strong sense of self-worth and a need for independence in their relationships. They may come across as confident and assertive in their values and desires."
+      },
+      "2": {
+        "description": "With Venus in the second house in Aries, individuals value independence and self-sufficiency in their financial dealings and material possessions. They may be assertive in their pursuit of financial security and quick to act on financial opportunities."
+      },
+      "3": {
+        "description": "Aries venus in the third house indicates a dynamic and energetic approach to relationships and learning. Individuals may be quick to form connections and express their feelings directly."
+      },
+      "4": {
+        "description": "Venus in the fourth house in Aries suggests a dynamic and active home life, with a focus on relationships and values within the family. Individuals may be protective of their loved ones and express their emotions directly."
+      },
+      "5": {
+        "description": "Aries venus in the fifth house brings a strong desire for self-expression and creativity in relationships. Individuals may be passionate about their hobbies and creative pursuits, and enjoy taking the lead in creative projects."
+      },
+      "6": {
+        "description": "Venus in the sixth house in Aries gives individuals a strong drive to be productive and efficient in their daily routines. They may be quick to take initiative in their work or health matters, but may also be prone to emotional burnout."
+      },
+      "7": {
+        "description": "With Venus in the seventh house in Aries, relationships and partnerships are central to the individual's emotional life. They may seek a partner who matches their energy and independence, and conflicts can arise if they feel their autonomy is threatened."
+      },
+      "8": {
+        "description": "Aries venus in the eighth house creates an intense and passionate emotional nature. Individuals may experience deep emotional connections through their relationships, and may have a strong drive for intimacy and a fear of emotional vulnerability."
+      },
+      "9": {
+        "description": "Venus in the ninth house in Aries indicates a love for adventure, travel, and seeking knowledge. Individuals may be enthusiastic about expanding their horizons and may feel a deep emotional connection to new experiences, whether intellectual or physical."
+      },
+      "10": {
+        "description": "With Venus in the tenth house in Aries, individuals are emotionally driven to achieve success and recognition through their relationships and values. They may be highly ambitious in their career and may have a strong desire to take the lead in their professional life."
+      },
+      "11": {
+        "description": "Aries venus in the eleventh house suggests that individuals are emotionally connected to their friends and social causes. They may be passionate about group activities and have a strong desire to lead in social or humanitarian endeavors."
+      },
+      "12": {
+        "description": "Venus in the twelfth house in Aries may indicate deep-seated emotional needs that are hidden or subconscious. Individuals may be drawn to solitary pursuits or introspection to understand their emotions."
+      }
+    }
+  },
+  "mars": {
+    "description": "Aries mars individuals are known for their energetic and assertive approach to action and desire. They are often driven to take initiative and lead in their pursuits, and value independence and freedom.",
+    "houses": {
+      "1": {
+        "description": "Mars in the first house in Aries gives individuals a strong sense of self-motivation and a need to take action directly. They may come across as confident and assertive in their desires and pursuits."
+      },
+      "2": {
+        "description": "With Mars in the second house in Aries, individuals value independence and self-sufficiency in their financial dealings and material possessions. They may be assertive in their pursuit of financial security and quick to act on financial opportunities."
+      },
+      "3": {
+        "description": "Aries mars in the third house indicates a dynamic and energetic approach to communication and learning. Individuals may be quick thinkers and speakers, with a direct and assertive way of expressing themselves."
+      },
+      "4": {
+        "description": "Mars in the fourth house in Aries suggests a dynamic and active home life, with a focus on action and desire within the family. Individuals may be protective of their loved ones and express their emotions directly."
+      },
+      "5": {
+        "description": "Aries mars in the fifth house brings a strong desire for self-expression and creativity in action. Individuals may be passionate about their hobbies and creative pursuits, and enjoy taking the lead in creative projects."
+      },
+      "6": {
+        "description": "Mars in the sixth house in Aries gives individuals a strong drive to be productive and efficient in their daily routines. They may be quick to take initiative in their work or health matters, but may also be prone to emotional burnout."
+      },
+      "7": {
+        "description": "With Mars in the seventh house in Aries, relationships and partnerships are central to the individual's action and desire. They may seek a partner who matches their energy and independence, and conflicts can arise if they feel their autonomy is threatened."
+      },
+      "8": {
+        "description": "Aries mars in the eighth house creates an intense and passionate drive for action. Individuals may experience deep emotional connections through their desires, and may have a strong drive for intimacy and a fear of emotional vulnerability."
+      },
+      "9": {
+        "description": "Mars in the ninth house in Aries indicates a love for adventure, travel, and seeking knowledge. Individuals may be enthusiastic about expanding their horizons and may feel a deep emotional connection to new experiences, whether intellectual or physical."
+      },
+      "10": {
+        "description": "With Mars in the tenth house in Aries, individuals are driven to achieve success and recognition through their action and desire. They may be highly ambitious in their career and may have a strong desire to take the lead in their professional life."
+      },
+      "11": {
+        "description": "Aries mars in the eleventh house suggests that individuals are driven to take action in their friendships and social causes. They may be passionate about group activities and have a strong desire to lead in social or humanitarian endeavors."
+      },
+      "12": {
+        "description": "Mars in the twelfth house in Aries may indicate deep-seated action needs that are hidden or subconscious. Individuals may be drawn to solitary pursuits or introspection to understand their desires."
+      }
+    }
+  },
+  "jupiter": {
+    "description": "Aries jupiter individuals are known for their expansive and optimistic approach to growth and exploration. They are often driven to seek new experiences and knowledge, and value independence and freedom in their pursuit of wisdom.",
+    "houses": {
+      "1": {
+        "description": "Jupiter in the first house in Aries gives individuals a strong sense of self-confidence and optimism. They may come across as charismatic and enthusiastic in their approach to life."
+      },
+      "2": {
+        "description": "With Jupiter in the second house in Aries, individuals value independence and self-sufficiency in their financial dealings and material possessions. They may be optimistic about their financial prospects and quick to take calculated risks."
+      },
+      "3": {
+        "description": "Aries jupiter in the third house indicates an expansive and curious approach to communication and learning. Individuals may be enthusiastic about sharing their ideas and quick to explore new intellectual pursuits."
+      },
+      "4": {
+        "description": "Jupiter in the fourth house in Aries suggests a dynamic and expansive home life, with a focus on growth and exploration within the family. Individuals may be optimistic about their family relationships and express their emotions directly."
+      },
+      "5": {
+        "description": "Aries jupiter in the fifth house brings a strong desire for self-expression and creativity in growth and exploration. Individuals may be passionate about their hobbies and creative pursuits, and enjoy taking the lead in creative projects."
+      },
+      "6": {
+        "description": "Jupiter in the sixth house in Aries gives individuals a strong drive to be productive and efficient in their daily routines. They may be optimistic about their work or health matters, but may also be prone to overconfidence."
+      },
+      "7": {
+        "description": "With Jupiter in the seventh house in Aries, relationships and partnerships are central to the individual's growth and exploration. They may seek a partner who matches their energy and independence, and conflicts can arise if they feel their autonomy is threatened."
+      },
+      "8": {
+        "description": "Aries jupiter in the eighth house creates an intense and passionate drive for growth and transformation. Individuals may experience deep emotional connections through their desires, and may have a strong drive for intimacy and a fear of emotional vulnerability."
+      },
+      "9": {
+        "description": "Jupiter in the ninth house in Aries indicates a love for adventure, travel, and seeking knowledge. Individuals may be enthusiastic about expanding their horizons and may feel a deep emotional connection to new experiences, whether intellectual or physical."
+      },
+      "10": {
+        "description": "With Jupiter in the tenth house in Aries, individuals are driven to achieve success and recognition through their growth and exploration. They may be highly ambitious in their career and may have a strong desire to take the lead in their professional life."
+      },
+      "11": {
+        "description": "Aries jupiter in the eleventh house suggests that individuals are driven to take action in their friendships and social causes. They may be passionate about group activities and have a strong desire to lead in social or humanitarian endeavors."
+      },
+      "12": {
+        "description": "Jupiter in the twelfth house in Aries may indicate deep-seated growth needs that are hidden or subconscious. Individuals may be drawn to solitary pursuits or introspection to understand their desires."
+      }
+    }
+  },
+  "saturn": {
+    "description": "Aries saturn individuals are known for their disciplined and responsible approach to limitations and challenges. They are often driven to take responsibility and lead in their areas of challenge, and value independence and self-sufficiency.",
+    "houses": {
+      "1": {
+        "description": "Saturn in the first house in Aries gives individuals a strong sense of self-discipline and responsibility. They may come across as serious and ambitious in their approach to life."
+      },
+      "2": {
+        "description": "With Saturn in the second house in Aries, individuals value independence and self-sufficiency in their financial dealings and material possessions. They may be cautious and responsible about their financial security and slow to take financial risks."
+      },
+      "3": {
+        "description": "Aries saturn in the third house indicates a disciplined and responsible approach to communication and learning. Individuals may be serious and methodical in their intellectual pursuits."
+      },
+      "4": {
+        "description": "Saturn in the fourth house in Aries suggests a disciplined and responsible home life, with a focus on structure and stability within the family. Individuals may be serious about their family relationships and express their emotions in a controlled manner."
+      },
+      "5": {
+        "description": "Aries saturn in the fifth house brings a strong sense of responsibility and discipline to self-expression and creativity. Individuals may be serious about their hobbies and creative pursuits, and enjoy taking a structured approach to creative projects."
+      },
+      "6": {
+        "description": "Saturn in the sixth house in Aries gives individuals a strong drive to be productive and efficient in their daily routines. They may be disciplined and responsible in their work or health matters, but may also be prone to overwork."
+      },
+      "7": {
+        "description": "With Saturn in the seventh house in Aries, relationships and partnerships are central to the individual's limitations and challenges. They may seek a partner who matches their sense of responsibility and independence, and conflicts can arise if they feel their autonomy is threatened."
+      },
+      "8": {
+        "description": "Aries saturn in the eighth house creates a disciplined and responsible drive for transformation. Individuals may experience deep emotional connections through their desires, and may have a strong drive for intimacy and a fear of emotional vulnerability."
+      },
+      "9": {
+        "description": "Saturn in the ninth house in Aries indicates a disciplined and responsible approach to expansion and exploration. Individuals may be serious about expanding their horizons and may feel a deep emotional connection to new experiences, whether intellectual or physical."
+      },
+      "10": {
+        "description": "With Saturn in the tenth house in Aries, individuals are driven to achieve success and recognition through their limitations and challenges. They may be highly ambitious in their career and may have a strong desire to take the lead in their professional life."
+      },
+      "11": {
+        "description": "Aries saturn in the eleventh house suggests that individuals are driven to take action in their friendships and social causes. They may be serious about group activities and have a strong desire to lead in social or humanitarian endeavors."
+      },
+      "12": {
+        "description": "Saturn in the twelfth house in Aries may indicate deep-seated limitation needs that are hidden or subconscious. Individuals may be drawn to solitary pursuits or introspection to understand their challenges."
+      }
+    }
+  },
+  "uranus": {
+    "description": "Aries uranus individuals are known for their innovative and humanitarian approach to change and revolution. They are often driven to seek freedom and independence in their pursuits, and value originality and individuality.",
+    "houses": {
+      "1": {
+        "description": "Uranus in the first house in Aries gives individuals a strong sense of independence and a need for freedom. They may come across as unconventional and innovative in their approach to life."
+      },
+      "2": {
+        "description": "With Uranus in the second house in Aries, individuals value independence and self-sufficiency in their financial dealings and material possessions. They may be innovative and unconventional in their approach to financial security and quick to take calculated risks."
+      },
+      "3": {
+        "description": "Aries uranus in the third house indicates an innovative and humanitarian approach to communication and learning. Individuals may be unconventional and forward-thinking in their intellectual pursuits."
+      },
+      "4": {
+        "description": "Uranus in the fourth house in Aries suggests an innovative and humanitarian home life, with a focus on freedom and independence within the family. Individuals may be unconventional about their family relationships and express their emotions in a unique manner."
+      },
+      "5": {
+        "description": "Aries uranus in the fifth house brings a strong desire for self-expression and creativity in innovation and humanitarian pursuits. Individuals may be passionate about their hobbies and creative pursuits, and enjoy taking an unconventional approach to creative projects."
+      },
+      "6": {
+        "description": "Uranus in the sixth house in Aries gives individuals a strong drive to be productive and efficient in their daily routines. They may be innovative and unconventional in their work or health matters, but may also be prone to sudden changes."
+      },
+      "7": {
+        "description": "With Uranus in the seventh house in Aries, relationships and partnerships are central to the individual's need for freedom and independence. They may seek a partner who matches their energy and individuality, and conflicts can arise if they feel their autonomy is threatened."
+      },
+      "8": {
+        "description": "Aries uranus in the eighth house creates an innovative and humanitarian drive for transformation. Individuals may experience deep emotional connections through their desires, and may have a strong drive for intimacy and a fear of emotional vulnerability."
+      },
+      "9": {
+        "description": "Uranus in the ninth house in Aries indicates an innovative and humanitarian approach to expansion and exploration. Individuals may be enthusiastic about expanding their horizons and may feel a deep emotional connection to new experiences, whether intellectual or physical."
+      },
+      "10": {
+        "description": "With Uranus in the tenth house in Aries, individuals are driven to achieve success and recognition through their innovation and humanitarian pursuits. They may be highly ambitious in their career and may have a strong desire to take the lead in their professional life."
+      },
+      "11": {
+        "description": "Aries uranus in the eleventh house suggests that individuals are driven to take action in their friendships and social causes. They may be passionate about group activities and have a strong desire to lead in social or humanitarian endeavors."
+      },
+      "12": {
+        "description": "Uranus in the twelfth house in Aries may indicate deep-seated innovation needs that are hidden or subconscious. Individuals may be drawn to solitary pursuits or introspection to understand their desires."
+      }
+    }
+  },
+  "neptune": {
+    "description": "Aries neptune individuals are known for their imaginative and compassionate approach to spirituality and illusion. They are often driven to seek spiritual connection and transcendence, and value intuition and empathy.",
+    "houses": {
+      "1": {
+        "description": "Neptune in the first house in Aries gives individuals a strong sense of spiritual connection and a need for transcendence. They may come across as imaginative and compassionate in their approach to life."
+      },
+      "2": {
+        "description": "With Neptune in the second house in Aries, individuals value intuition and empathy in their financial dealings and material possessions. They may be imaginative and compassionate about their financial security and quick to take intuitive leaps."
+      },
+      "3": {
+        "description": "Aries neptune in the third house indicates an imaginative and compassionate approach to communication and learning. Individuals may be intuitive and empathetic in their intellectual pursuits."
+      },
+      "4": {
+        "description": "Neptune in the fourth house in Aries suggests an imaginative and compassionate home life, with a focus on spiritual connection and transcendence within the family. Individuals may be intuitive about their family relationships and express their emotions in a subtle manner."
+      },
+      "5": {
+        "description": "Aries neptune in the fifth house brings a strong desire for self-expression and creativity in spiritual and imaginative pursuits. Individuals may be passionate about their hobbies and creative pursuits, and enjoy taking an intuitive approach to creative projects."
+      },
+      "6": {
+        "description": "Neptune in the sixth house in Aries gives individuals a strong drive to be productive and efficient in their daily routines. They may be imaginative and compassionate in their work or health matters, but may also be prone to confusion or illusion."
+      },
+      "7": {
+        "description": "With Neptune in the seventh house in Aries, relationships and partnerships are central to the individual's spiritual connection and transcendence. They may seek a partner who matches their intuition and empathy, and conflicts can arise if they feel their spiritual autonomy is threatened."
+      },
+      "8": {
+        "description": "Aries neptune in the eighth house creates an imaginative and compassionate drive for transformation. Individuals may experience deep emotional connections through their desires, and may have a strong drive for intimacy and a fear of emotional vulnerability."
+      },
+      "9": {
+        "description": "Neptune in the ninth house in Aries indicates an imaginative and compassionate approach to expansion and exploration. Individuals may be enthusiastic about expanding their horizons and may feel a deep emotional connection to new experiences, whether intellectual or physical."
+      },
+      "10": {
+        "description": "With Neptune in the tenth house in Aries, individuals are driven to achieve success and recognition through their spiritual and imaginative pursuits. They may be highly ambitious in their career and may have a strong desire to take the lead in their professional life."
+      },
+      "11": {
+        "description": "Aries neptune in the eleventh house suggests that individuals are driven to take action in their friendships and social causes. They may be passionate about group activities and have a strong desire to lead in social or humanitarian endeavors."
+      },
+      "12": {
+        "description": "Neptune in the twelfth house in Aries may indicate deep-seated spiritual needs that are hidden or subconscious. Individuals may be drawn to solitary pursuits or introspection to understand their desires."
+      }
+    }
+  },
+  "pluto": {
+    "description": "Aries pluto individuals are known for their intense and transformative approach to power and regeneration. They are often driven to seek power and control in their pursuits, and value intensity and passion.",
+    "houses": {
+      "1": {
+        "description": "Pluto in the first house in Aries gives individuals a strong sense of power and a need for control. They may come across as intense and passionate in their approach to life."
+      },
+      "2": {
+        "description": "With Pluto in the second house in Aries, individuals value intensity and passion in their financial dealings and material possessions. They may be driven to accumulate power and control in their financial security and quick to take bold action."
+      },
+      "3": {
+        "description": "Aries pluto in the third house indicates an intense and transformative approach to communication and learning. Individuals may be passionate and intense in their intellectual pursuits."
+      },
+      "4": {
+        "description": "Pluto in the fourth house in Aries suggests an intense and transformative home life, with a focus on power and control within the family. Individuals may be intense about their family relationships and express their emotions in a powerful manner."
+      },
+      "5": {
+        "description": "Aries pluto in the fifth house brings a strong desire for self-expression and creativity in intense and transformative pursuits. Individuals may be passionate about their hobbies and creative pursuits, and enjoy taking a bold approach to creative projects."
+      },
+      "6": {
+        "description": "Pluto in the sixth house in Aries gives individuals a strong drive to be productive and efficient in their daily routines. They may be intense and transformative in their work or health matters, but may also be prone to obsessive behavior."
+      },
+      "7": {
+        "description": "With Pluto in the seventh house in Aries, relationships and partnerships are central to the individual's need for power and control. They may seek a partner who matches their intensity and passion, and conflicts can arise if they feel their autonomy is threatened."
+      },
+      "8": {
+        "description": "Aries pluto in the eighth house creates an intense and transformative drive for transformation. Individuals may experience deep emotional connections through their desires, and may have a strong drive for intimacy and a fear of emotional vulnerability."
+      },
+      "9": {
+        "description": "Pluto in the ninth house in Aries indicates an intense and transformative approach to expansion and exploration. Individuals may be enthusiastic about expanding their horizons and may feel a deep emotional connection to new experiences, whether intellectual or physical."
+      },
+      "10": {
+        "description": "With Pluto in the tenth house in Aries, individuals are driven to achieve success and recognition through their intense and transformative pursuits. They may be highly ambitious in their career and may have a strong desire to take the lead in their professional life."
+      },
+      "11": {
+        "description": "Aries pluto in the eleventh house suggests that individuals are driven to take action in their friendships and social causes. They may be passionate about group activities and have a strong desire to lead in social or humanitarian endeavors."
+      },
+      "12": {
+        "description": "Pluto in the twelfth house in Aries may indicate deep-seated power needs that are hidden or subconscious. Individuals may be drawn to solitary pursuits or introspection to understand their desires."
+      }
+    }
+  }
+}
+

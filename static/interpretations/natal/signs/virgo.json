@@ -1,0 +1,60 @@
+{
+  "description": "Virgo is the sixth sign of the zodiac and is known for its analytical and practical nature. People born under this sign are often seen as being very detail-oriented and service-oriented. They are known for their ability to organize and improve things.",
+  "strengths": [
+    "Analytical",
+    "Practical",
+    "Reliable"
+  ],
+  "weaknesses": [
+    "Perfectionist",
+    "Overly critical",
+    "Worried"
+  ],
+  "rising": {
+    "description": "Virgo rising people often appear analytical and precise. They have a practical, efficient presence and are known for their attention to detail."
+  },
+  "sun": {
+    "description": "Virgo sun people are naturally analytical and service-oriented. They have a strong desire to improve things and often excel in practical roles.",
+    "houses": {
+      "1": {
+        "description": "With Virgo sun in the first house, you have an analytical, practical personality. You're known for your attention to detail and service-oriented nature. Your physical appearance often reflects your precise nature."
+      },
+      "2": {
+        "description": "Virgo sun in the second house indicates a practical approach to finances and values. You're likely to be careful with money and value efficiency. Your self-worth is tied to your practical abilities."
+      },
+      "3": {
+        "description": "With Virgo sun in the third house, you communicate with precision. You have an analytical approach to learning and often share knowledge in a practical way. Your siblings may be analytical or practical."
+      },
+      "4": {
+        "description": "Virgo sun in the fourth house suggests a practical and organized home environment. You may have had a structured upbringing and often create spaces that are efficient and well-organized."
+      },
+      "5": {
+        "description": "With Virgo sun in the fifth house, you express your creativity through practical means. You're attracted to analytical partners and may have children who are precise and practical."
+      },
+      "6": {
+        "description": "Virgo sun in the sixth house indicates a practical approach to work and health. You're likely to be drawn to service-oriented professions and need efficiency in your daily routines."
+      },
+      "7": {
+        "description": "With Virgo sun in the seventh house, you seek practical and analytical partnerships. You're attracted to efficient partners and value service in relationships."
+      },
+      "8": {
+        "description": "Virgo sun in the eighth house suggests an analytical approach to shared resources and transformation. You're likely to be interested in practical healing and improvement."
+      },
+      "9": {
+        "description": "With Virgo sun in the ninth house, you approach higher learning and philosophy with practical analysis. You're likely to be interested in practical forms of spirituality."
+      },
+      "10": {
+        "description": "Virgo sun in the tenth house indicates a career that involves analysis and service. You're likely to excel in fields that require precision and practical skills."
+      },
+      "11": {
+        "description": "With Virgo sun in the eleventh house, you seek practical and analytical friendships. You're likely to be involved in groups that emphasize service and efficiency."
+      },
+      "12": {
+        "description": "Virgo sun in the twelfth house suggests that your analytical nature may be expressed in private or behind the scenes. You may need to learn to balance practical concerns with spiritual growth."
+      }
+    }
+  },
+  "moon": {
+    "description": "Virgo moon people have a strong need for order and efficiency. They process emotions through analysis and often have a practical emotional nature."
+  }
+} 

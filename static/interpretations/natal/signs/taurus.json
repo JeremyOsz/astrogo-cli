@@ -1,0 +1,60 @@
+{
+  "description": "Taurus is the second sign of the zodiac and is known for its stability and determination. People born under this sign are often seen as being very reliable and practical. They are known for their love of comfort and their strong connection to the material world.",
+  "strengths": [
+    "Reliable",
+    "Patient",
+    "Practical"
+  ],
+  "weaknesses": [
+    "Stubborn",
+    "Possessive",
+    "Resistant to change"
+  ],
+  "rising": {
+    "description": "Taurus rising people often present themselves as stable and reliable. They have a strong presence and are known for their practical approach to life. Their appearance often reflects their love of comfort and beauty."
+  },
+  "sun": {
+    "description": "Taurus sun people are grounded and practical individuals who value stability and security. They have a strong connection to the physical world and often excel in creating comfortable, beautiful environments.",
+    "houses": {
+      "1": {
+        "description": "With Taurus sun in the first house, you have a strong, stable presence. You're known for your reliability and practical approach to life. Your physical appearance often reflects your love of comfort and beauty."
+      },
+      "2": {
+        "description": "Taurus sun in the second house indicates a strong focus on material security and values. You're likely to be skilled at managing resources and have a practical approach to finances. Your self-worth is tied to your material achievements."
+      },
+      "3": {
+        "description": "With Taurus sun in the third house, you communicate in a practical, methodical way. You have a steady approach to learning and often excel in hands-on education. Your siblings may be reliable and stable."
+      },
+      "4": {
+        "description": "Taurus sun in the fourth house suggests a stable, comfortable home environment. You value security in your family life and often create beautiful, comfortable living spaces. Your upbringing may have emphasized stability and material comfort."
+      },
+      "5": {
+        "description": "With Taurus sun in the fifth house, you express your creativity through practical, tangible means. You're attracted to stable, reliable partners and may have children who are grounded and practical."
+      },
+      "6": {
+        "description": "Taurus sun in the sixth house indicates a methodical approach to work and health. You're likely to be reliable in your daily routines and have a practical approach to wellness. You may need to learn flexibility in your work habits."
+      },
+      "7": {
+        "description": "With Taurus sun in the seventh house, you seek stable, reliable partnerships. You're attracted to practical, grounded partners and value security in relationships. You may need to learn to be more flexible in partnerships."
+      },
+      "8": {
+        "description": "Taurus sun in the eighth house suggests a practical approach to shared resources and transformation. You're likely to be skilled at managing joint finances and have a steady approach to personal growth."
+      },
+      "9": {
+        "description": "With Taurus sun in the ninth house, you approach higher learning and philosophy in a practical way. You're likely to be interested in practical applications of knowledge and may prefer comfortable travel experiences."
+      },
+      "10": {
+        "description": "Taurus sun in the tenth house indicates a steady, reliable approach to career. You're likely to excel in practical, tangible work and value stability in your professional life."
+      },
+      "11": {
+        "description": "With Taurus sun in the eleventh house, you seek stable, reliable friendships. You're likely to be involved in practical group activities and value consistency in your social connections."
+      },
+      "12": {
+        "description": "Taurus sun in the twelfth house suggests that your practical nature may be expressed in private or behind the scenes. You may need to learn to balance stability with spiritual growth."
+      }
+    }
+  },
+  "moon": {
+    "description": "Taurus moon people have a deep need for emotional security and stability. They find comfort in routine and physical pleasures, and often have a strong connection to their senses."
+  }
+} 

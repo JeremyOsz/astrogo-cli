@@ -1,0 +1,57 @@
+{
+  "rising": {
+    "description": "The rising sign (Ascendant) is the sign that was on the eastern horizon at the time of birth. It represents your outward personality, physical appearance, and how others first perceive you. It's the mask you wear when meeting new people and your approach to new situations.",
+    "keywords": ["appearance", "first impressions", "approach to life", "physical body"],
+    "time_period": "Changes approximately every 2 hours"
+  },
+  "sun": {
+    "description": "The Sun represents your core identity, ego, and life force. It shows your basic personality, vitality, and creative expression. The Sun sign indicates your fundamental character and the qualities you're developing in this lifetime.",
+    "keywords": ["identity", "vitality", "ego", "consciousness", "father"],
+    "time_period": "Changes approximately every 30 days"
+  },
+  "moon": {
+    "description": "The Moon represents your emotional nature, instincts, and unconscious patterns. It shows how you process feelings, your comfort needs, and your relationship with nurturing and being nurtured. The Moon sign reveals your emotional security needs and how you express your feelings.",
+    "keywords": ["emotions", "instincts", "mother", "nurturing", "habits"],
+    "time_period": "Changes approximately every 2.5 days"
+  },
+  "mercury": {
+    "description": "Mercury represents your thinking style, communication patterns, and how you process information. It shows your intellectual approach, learning style, and how you express your thoughts. Mercury's sign indicates how you communicate and make decisions.",
+    "keywords": ["communication", "intellect", "learning", "siblings", "short journeys"],
+    "time_period": "Changes approximately every 3-4 weeks"
+  },
+  "venus": {
+    "description": "Venus represents your values, relationships, and what you find beautiful and pleasurable. It shows your approach to love, your aesthetic preferences, and what you're attracted to. Venus's sign indicates your relationship style and what you value most.",
+    "keywords": ["love", "beauty", "values", "relationships", "pleasure"],
+    "time_period": "Changes approximately every 4-5 weeks"
+  },
+  "mars": {
+    "description": "Mars represents your energy, drive, and how you take action. It shows your assertiveness, sexual nature, and how you pursue your desires. Mars's sign indicates your fighting style and how you express your anger and passion.",
+    "keywords": ["action", "desire", "energy", "aggression", "sexuality"],
+    "time_period": "Changes approximately every 6-7 weeks"
+  },
+  "jupiter": {
+    "description": "Jupiter represents your growth, expansion, and higher learning. It shows your optimism, faith, and how you seek meaning in life. Jupiter's sign indicates your philosophical outlook and how you experience abundance and opportunity.",
+    "keywords": ["growth", "optimism", "faith", "higher education", "travel"],
+    "time_period": "Changes approximately every 12-13 months"
+  },
+  "saturn": {
+    "description": "Saturn represents your limitations, responsibilities, and life lessons. It shows your fears, restrictions, and how you deal with authority. Saturn's sign indicates your areas of challenge and where you need to develop maturity and discipline.",
+    "keywords": ["limitations", "responsibility", "authority", "fears", "discipline"],
+    "time_period": "Changes approximately every 2.5 years"
+  },
+  "uranus": {
+    "description": "Uranus represents your individuality, rebellion, and need for freedom. It shows your unique qualities, sudden changes, and innovative ideas. Uranus's sign indicates how you express your originality and handle unexpected events.",
+    "keywords": ["freedom", "innovation", "rebellion", "sudden change", "technology"],
+    "time_period": "Changes approximately every 7 years"
+  },
+  "neptune": {
+    "description": "Neptune represents your dreams, illusions, and spiritual nature. It shows your idealism, creativity, and connection to the collective unconscious. Neptune's sign indicates how you experience spirituality and handle confusion or deception.",
+    "keywords": ["dreams", "spirituality", "illusion", "compassion", "art"],
+    "time_period": "Changes approximately every 14 years"
+  },
+  "pluto": {
+    "description": "Pluto represents transformation, power, and deep psychological processes. It shows your ability to regenerate, your obsessions, and how you handle power. Pluto's sign indicates your areas of deep transformation and how you experience profound change.",
+    "keywords": ["transformation", "power", "regeneration", "obsession", "secrets"],
+    "time_period": "Changes approximately every 12-32 years"
+  }
+}

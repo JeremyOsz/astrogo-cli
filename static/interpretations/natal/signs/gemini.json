@@ -1,0 +1,60 @@
+{
+  "description": "Gemini is the third sign of the zodiac and is known for its adaptability and communication skills. People born under this sign are often seen as being very versatile and intellectually curious. They are known for their ability to see multiple perspectives.",
+  "strengths": [
+    "Adaptable",
+    "Intelligent",
+    "Communicative"
+  ],
+  "weaknesses": [
+    "Inconsistent",
+    "Nervous",
+    "Indecisive"
+  ],
+  "rising": {
+    "description": "Gemini rising people often appear quick-witted and versatile. They have a light, airy presence and are known for their ability to adapt to different social situations."
+  },
+  "sun": {
+    "description": "Gemini sun people are intellectually curious and love to learn. They have a natural ability to communicate and often excel in fields that require mental agility.",
+    "houses": {
+      "1": {
+        "description": "With Gemini sun in the first house, you have a versatile, adaptable personality. You're known for your quick wit and ability to communicate effectively. Your physical appearance often reflects your intellectual nature."
+      },
+      "2": {
+        "description": "Gemini sun in the second house indicates a flexible approach to finances and values. You're likely to have multiple sources of income and adapt easily to changing financial circumstances. Your self-worth is tied to your intellectual abilities."
+      },
+      "3": {
+        "description": "With Gemini sun in the third house, you excel in communication and learning. You have a natural curiosity and often engage in multiple forms of communication. Your siblings may be intellectually stimulating."
+      },
+      "4": {
+        "description": "Gemini sun in the fourth house suggests a home environment that emphasizes communication and learning. You may have had an intellectually stimulating upbringing and often create spaces that encourage mental activity."
+      },
+      "5": {
+        "description": "With Gemini sun in the fifth house, you express your creativity through communication and intellectual pursuits. You're attracted to mentally stimulating partners and may have children who are curious and communicative."
+      },
+      "6": {
+        "description": "Gemini sun in the sixth house indicates a versatile approach to work and health. You're likely to have multiple interests in your daily routines and need mental stimulation in your work environment."
+      },
+      "7": {
+        "description": "With Gemini sun in the seventh house, you seek intellectually stimulating partnerships. You're attracted to communicative partners and value mental connection in relationships."
+      },
+      "8": {
+        "description": "Gemini sun in the eighth house suggests an analytical approach to shared resources and transformation. You're likely to be interested in research and investigation of deep topics."
+      },
+      "9": {
+        "description": "With Gemini sun in the ninth house, you approach higher learning and philosophy with great curiosity. You're likely to be interested in multiple belief systems and enjoy learning about different cultures."
+      },
+      "10": {
+        "description": "Gemini sun in the tenth house indicates a career that involves communication and versatility. You're likely to excel in fields that require mental agility and adaptability."
+      },
+      "11": {
+        "description": "With Gemini sun in the eleventh house, you seek intellectually stimulating friendships. You're likely to be involved in groups that emphasize learning and communication."
+      },
+      "12": {
+        "description": "Gemini sun in the twelfth house suggests that your intellectual nature may be expressed in private or behind the scenes. You may need to learn to balance mental activity with spiritual growth."
+      }
+    }
+  },
+  "moon": {
+    "description": "Gemini moon people have a need for mental stimulation and variety in their emotional life. They process emotions through communication and often have many different interests."
+  }
+} 

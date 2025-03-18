@@ -1,0 +1,60 @@
+{
+  "description": "Leo is the fifth sign of the zodiac and is known for its creative and confident nature. People born under this sign are often seen as being very expressive and charismatic. They are known for their natural leadership abilities and desire for recognition.",
+  "strengths": [
+    "Creative",
+    "Confident",
+    "Generous"
+  ],
+  "weaknesses": [
+    "Arrogant",
+    "Stubborn",
+    "Dramatic"
+  ],
+  "rising": {
+    "description": "Leo rising people often appear confident and charismatic. They have a warm, dramatic presence and are known for their ability to command attention."
+  },
+  "sun": {
+    "description": "Leo sun people are naturally creative and expressive. They have a strong desire for recognition and often excel in leadership roles.",
+    "houses": {
+      "1": {
+        "description": "With Leo sun in the first house, you have a confident, creative personality. You're known for your dramatic flair and natural leadership abilities. Your physical appearance often reflects your expressive nature."
+      },
+      "2": {
+        "description": "Leo sun in the second house indicates a generous approach to finances and values. You're likely to spend money on creative pursuits and value luxury. Your self-worth is tied to your creative expression."
+      },
+      "3": {
+        "description": "With Leo sun in the third house, you communicate with dramatic flair. You have a creative approach to learning and often share knowledge in an entertaining way. Your siblings may be creative or dramatic."
+      },
+      "4": {
+        "description": "Leo sun in the fourth house suggests a creative and dramatic home environment. You may have had an expressive upbringing and often create spaces that reflect your artistic nature."
+      },
+      "5": {
+        "description": "With Leo sun in the fifth house, you express your creativity with great confidence. You're attracted to creative partners and may have children who are expressive and dramatic."
+      },
+      "6": {
+        "description": "Leo sun in the sixth house indicates a creative approach to work and health. You're likely to be drawn to artistic professions and need creative expression in your daily routines."
+      },
+      "7": {
+        "description": "With Leo sun in the seventh house, you seek creative and confident partnerships. You're attracted to expressive partners and value recognition in relationships."
+      },
+      "8": {
+        "description": "Leo sun in the eighth house suggests a dramatic approach to shared resources and transformation. You're likely to be interested in creative healing and personal power."
+      },
+      "9": {
+        "description": "With Leo sun in the ninth house, you approach higher learning and philosophy with creative confidence. You're likely to be interested in dramatic and expressive forms of spirituality."
+      },
+      "10": {
+        "description": "Leo sun in the tenth house indicates a career that involves creativity and leadership. You're likely to excel in fields that require dramatic expression and public recognition."
+      },
+      "11": {
+        "description": "With Leo sun in the eleventh house, you seek creative and confident friendships. You're likely to be involved in groups that emphasize artistic expression and leadership."
+      },
+      "12": {
+        "description": "Leo sun in the twelfth house suggests that your creative nature may be expressed in private or behind the scenes. You may need to learn to balance public recognition with private expression."
+      }
+    }
+  },
+  "moon": {
+    "description": "Leo moon people have a strong need for creative expression and recognition. They process emotions through creative outlets and often have a dramatic emotional nature."
+  }
+} 

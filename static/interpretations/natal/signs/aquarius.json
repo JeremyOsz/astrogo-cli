@@ -1,0 +1,60 @@
+{
+  "description": "Aquarius is the eleventh sign of the zodiac and is known for its innovative and humanitarian nature. People born under this sign are often seen as being very progressive and independent. They are known for their ability to think outside the box and work for the greater good.",
+  "strengths": [
+    "Innovative",
+    "Humanitarian",
+    "Independent"
+  ],
+  "weaknesses": [
+    "Unpredictable",
+    "Detached",
+    "Rebellious"
+  ],
+  "rising": {
+    "description": "Aquarius rising people often appear unique and progressive. They have an innovative presence and are known for their ability to think differently and work for social change."
+  },
+  "sun": {
+    "description": "Aquarius sun people are naturally innovative and humanitarian. They have a strong desire for progress and often excel in roles that require originality and social awareness.",
+    "houses": {
+      "1": {
+        "description": "With Aquarius sun in the first house, you have an innovative, independent personality. You're known for your unique perspective and humanitarian ideals. Your physical appearance often reflects your progressive nature."
+      },
+      "2": {
+        "description": "Aquarius sun in the second house indicates an innovative approach to finances and values. You're likely to spend money on technology and social causes. Your self-worth is tied to your uniqueness."
+      },
+      "3": {
+        "description": "With Aquarius sun in the third house, you communicate with originality. You have a progressive approach to learning and often share knowledge with innovation. Your siblings may be unique or progressive."
+      },
+      "4": {
+        "description": "Aquarius sun in the fourth house suggests an innovative and unconventional home environment. You may have had a progressive upbringing and often create spaces that reflect your unique style."
+      },
+      "5": {
+        "description": "With Aquarius sun in the fifth house, you express your creativity through innovation. You're attracted to unique partners and may have children who are progressive and independent."
+      },
+      "6": {
+        "description": "Aquarius sun in the sixth house indicates an innovative approach to work and health. You're likely to be drawn to progressive professions and need freedom in your daily routines."
+      },
+      "7": {
+        "description": "With Aquarius sun in the seventh house, you seek innovative partnerships. You're attracted to unique partners and value independence in relationships."
+      },
+      "8": {
+        "description": "Aquarius sun in the eighth house suggests an innovative approach to shared resources and transformation. You're likely to be interested in progressive healing and social change."
+      },
+      "9": {
+        "description": "With Aquarius sun in the ninth house, you approach higher learning and philosophy with innovation. You're likely to be interested in progressive forms of spirituality."
+      },
+      "10": {
+        "description": "Aquarius sun in the tenth house indicates a career that involves innovation and social change. You're likely to excel in fields that require originality and humanitarian ideals."
+      },
+      "11": {
+        "description": "With Aquarius sun in the eleventh house, you seek innovative friendships. You're likely to be involved in groups that emphasize progress and social change."
+      },
+      "12": {
+        "description": "Aquarius sun in the twelfth house suggests that your innovative nature may be expressed in private or behind the scenes. You may need to learn to balance independence with spiritual growth."
+      }
+    }
+  },
+  "moon": {
+    "description": "Aquarius moon people have a strong need for independence and innovation. They process emotions through detachment and often have a progressive emotional nature."
+  }
+} 

@@ -1,0 +1,60 @@
+{
+  "description": "Capricorn is the tenth sign of the zodiac and is known for its ambitious and responsible nature. People born under this sign are often seen as being very disciplined and practical. They are known for their ability to achieve goals and maintain structure.",
+  "strengths": [
+    "Ambitious",
+    "Responsible",
+    "Disciplined"
+  ],
+  "weaknesses": [
+    "Pessimistic",
+    "Rigid",
+    "Overly serious"
+  ],
+  "rising": {
+    "description": "Capricorn rising people often appear serious and responsible. They have a structured presence and are known for their ability to maintain order and achieve goals."
+  },
+  "sun": {
+    "description": "Capricorn sun people are naturally ambitious and disciplined. They have a strong desire for achievement and often excel in roles that require responsibility and structure.",
+    "houses": {
+      "1": {
+        "description": "With Capricorn sun in the first house, you have an ambitious, responsible personality. You're known for your discipline and ability to achieve goals. Your physical appearance often reflects your structured nature."
+      },
+      "2": {
+        "description": "Capricorn sun in the second house indicates a responsible approach to finances and values. You're likely to be careful with money and value security. Your self-worth is tied to your achievements."
+      },
+      "3": {
+        "description": "With Capricorn sun in the third house, you communicate with discipline. You have a practical approach to learning and often share knowledge with responsibility. Your siblings may be ambitious or structured."
+      },
+      "4": {
+        "description": "Capricorn sun in the fourth house suggests a structured and traditional home environment. You may have had a disciplined upbringing and often create spaces that reflect your need for order."
+      },
+      "5": {
+        "description": "With Capricorn sun in the fifth house, you express your creativity through achievement. You're attracted to responsible partners and may have children who are disciplined and ambitious."
+      },
+      "6": {
+        "description": "Capricorn sun in the sixth house indicates a responsible approach to work and health. You're likely to be drawn to structured professions and need order in your daily routines."
+      },
+      "7": {
+        "description": "With Capricorn sun in the seventh house, you seek responsible partnerships. You're attracted to ambitious partners and value stability in relationships."
+      },
+      "8": {
+        "description": "Capricorn sun in the eighth house suggests a responsible approach to shared resources and transformation. You're likely to be interested in practical healing and growth."
+      },
+      "9": {
+        "description": "With Capricorn sun in the ninth house, you approach higher learning and philosophy with discipline. You're likely to be interested in traditional forms of spirituality."
+      },
+      "10": {
+        "description": "Capricorn sun in the tenth house indicates a career that involves responsibility and achievement. You're likely to excel in fields that require structure and ambition."
+      },
+      "11": {
+        "description": "With Capricorn sun in the eleventh house, you seek responsible friendships. You're likely to be involved in groups that emphasize achievement and structure."
+      },
+      "12": {
+        "description": "Capricorn sun in the twelfth house suggests that your responsible nature may be expressed in private or behind the scenes. You may need to learn to balance structure with spiritual growth."
+      }
+    }
+  },
+  "moon": {
+    "description": "Capricorn moon people have a strong need for structure and achievement. They process emotions through responsibility and often have a disciplined emotional nature."
+  }
+} 

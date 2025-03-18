@@ -1,0 +1,60 @@
+{
+  "description": "Libra is the seventh sign of the zodiac and is known for its diplomatic and harmonious nature. People born under this sign are often seen as being very balanced and relationship-oriented. They are known for their ability to see multiple perspectives and seek fairness.",
+  "strengths": [
+    "Diplomatic",
+    "Fair-minded",
+    "Social"
+  ],
+  "weaknesses": [
+    "Indecisive",
+    "Avoids confrontation",
+    "People-pleasing"
+  ],
+  "rising": {
+    "description": "Libra rising people often appear charming and balanced. They have a harmonious presence and are known for their ability to create peace and beauty."
+  },
+  "sun": {
+    "description": "Libra sun people are naturally diplomatic and relationship-oriented. They have a strong desire for harmony and often excel in roles that require balance and fairness.",
+    "houses": {
+      "1": {
+        "description": "With Libra sun in the first house, you have a diplomatic, balanced personality. You're known for your charm and ability to create harmony. Your physical appearance often reflects your aesthetic nature."
+      },
+      "2": {
+        "description": "Libra sun in the second house indicates a balanced approach to finances and values. You're likely to spend money on beautiful things and value harmony. Your self-worth is tied to your relationships."
+      },
+      "3": {
+        "description": "With Libra sun in the third house, you communicate with diplomacy. You have a balanced approach to learning and often share knowledge in a harmonious way. Your siblings may be diplomatic or artistic."
+      },
+      "4": {
+        "description": "Libra sun in the fourth house suggests a harmonious and beautiful home environment. You may have had a balanced upbringing and often create spaces that are aesthetically pleasing."
+      },
+      "5": {
+        "description": "With Libra sun in the fifth house, you express your creativity through harmony. You're attracted to artistic partners and may have children who are balanced and creative."
+      },
+      "6": {
+        "description": "Libra sun in the sixth house indicates a balanced approach to work and health. You're likely to be drawn to artistic professions and need harmony in your daily routines."
+      },
+      "7": {
+        "description": "With Libra sun in the seventh house, you seek harmonious partnerships. You're attracted to balanced partners and value fairness in relationships."
+      },
+      "8": {
+        "description": "Libra sun in the eighth house suggests a balanced approach to shared resources and transformation. You're likely to be interested in harmonious healing and partnership."
+      },
+      "9": {
+        "description": "With Libra sun in the ninth house, you approach higher learning and philosophy with balance. You're likely to be interested in harmonious forms of spirituality."
+      },
+      "10": {
+        "description": "Libra sun in the tenth house indicates a career that involves diplomacy and balance. You're likely to excel in fields that require fairness and artistic skills."
+      },
+      "11": {
+        "description": "With Libra sun in the eleventh house, you seek harmonious friendships. You're likely to be involved in groups that emphasize balance and beauty."
+      },
+      "12": {
+        "description": "Libra sun in the twelfth house suggests that your diplomatic nature may be expressed in private or behind the scenes. You may need to learn to balance harmony with personal growth."
+      }
+    }
+  },
+  "moon": {
+    "description": "Libra moon people have a strong need for harmony and balance. They process emotions through relationships and often have a diplomatic emotional nature."
+  }
+} 

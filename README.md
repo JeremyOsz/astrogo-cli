@@ -1,0 +1,1 @@
+A sandbox astrology app for playing around with Go cli's and astrology calculations.

@@ -30,7 +30,7 @@ func LoadSeedData() ([]SeedData, error) {
 		if !info.IsDir() && strings.HasSuffix(path, ".sql") {
 			// Extract version and name from filename (e.g., "01_elements.sql" -> "01", "elements")
 			parts := strings.Split(strings.TrimSuffix(info.Name(), ".sql"), "_")
-			if len(parts) != 2 {
+			if len(parts) < 2 {
 				return fmt.Errorf("invalid seed file name format: %s", info.Name())
 			}
 
@@ -42,7 +42,7 @@ func LoadSeedData() ([]SeedData, error) {
 
 			seedFiles = append(seedFiles, SeedData{
 				Version: parts[0],
-				Name:    parts[1],
+				Name:    strings.Join(parts[1:], "_"), // Join all remaining parts with underscore
 				SQL:     string(sql),
 			})
 		}
@@ -112,17 +112,21 @@ func ApplySeedData(db *sql.DB) error {
 	// Apply each seed file in order
 	for _, seed := range seedFiles {
 		// Check if this version has already been applied
-		var count int
 		var existingChecksum string
-		err := db.QueryRow("SELECT COUNT(*), checksum FROM migrations WHERE version = ?", seed.Version).Scan(&count, &existingChecksum)
-		if err != nil && err != sql.ErrNoRows {
-			return fmt.Errorf("failed to check migration version %s: %v", seed.Version, err)
+		err := db.QueryRow("SELECT checksum FROM migrations WHERE version = ?", seed.Version).Scan(&existingChecksum)
+		if err != nil {
+			if err == sql.ErrNoRows {
+				// No existing migration record, this is fine
+				existingChecksum = ""
+			} else {
+				return fmt.Errorf("failed to check migration version %s: %v", seed.Version, err)
+			}
 		}
 
 		// Calculate checksum of current seed data
 		currentChecksum := fmt.Sprintf("%x", seed.SQL)
 
-		if count == 0 || existingChecksum != currentChecksum {
+		if existingChecksum == "" || existingChecksum != currentChecksum {
 			// Validate the seed data before applying
 			if err := validateSeedData(db, seed); err != nil {
 				return fmt.Errorf("validation failed for seed %s: %v", seed.Name, err)
@@ -142,7 +146,7 @@ func ApplySeedData(db *sql.DB) error {
 			}
 
 			// Update or insert migration record
-			if count > 0 {
+			if existingChecksum != "" {
 				_, err = tx.Exec("UPDATE migrations SET checksum = ? WHERE version = ?", currentChecksum, seed.Version)
 			} else {
 				_, err = tx.Exec("INSERT INTO migrations (version, name, checksum) VALUES (?, ?, ?)", seed.Version, seed.Name, currentChecksum)

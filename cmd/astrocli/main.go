@@ -1,6 +1,7 @@
 package main
 
 import (
+	"astrogo-cli/internal/cli/commands"
 	"astrogo-cli/internal/service"
 	"fmt"
 	"os"
@@ -24,10 +25,7 @@ func main() {
 		Run: func(cmd *cobra.Command, args []string) {
 			if sign == "" {
 				fmt.Println("Error: Star sign is required")
-				//
-				sign = service.SelectSign()
-				// cmd.Help()
-				// return
+				sign = commands.SelectSign()
 			}
 
 			// Format: if no date specified, use today

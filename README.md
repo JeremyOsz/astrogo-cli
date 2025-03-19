@@ -13,6 +13,19 @@ A command-line interface tool for astrology calculations and analysis, built wit
 
 - Go 1.23.0 or higher
 - Git
+- GCC compiler and build tools
+- Swiss Ephemeris library and data files
+
+### Installing Swiss Ephemeris (Ubuntu/Debian)
+
+```bash
+# Install build tools
+sudo apt-get update
+sudo apt-get install -y build-essential gcc
+
+# Install Swiss Ephemeris library and data
+sudo apt-get install -y libswe-dev swe-standard-data
+```
 
 ## Installation
 

@@ -6,6 +6,8 @@ package birthchart
 import (
 	"fmt"
 	"time"
+
+	"astrogo-cli/internal/service/astronomy"
 )
 
 // Coordinates represents a geographical position
@@ -23,7 +25,7 @@ type Position struct {
 // Planet represents a celestial body
 type Planet struct {
 	Name     string
-	Position Position
+	Position *astronomy.Position
 	Sign     string
 	House    int
 }
@@ -33,14 +35,19 @@ type BirthChart struct {
 	DateTime    time.Time
 	Coordinates Coordinates
 	Planets     []Planet
+	Houses      *astronomy.HouseCusps
 }
 
 // Service provides birth chart related functionality
-type Service struct{}
+type Service struct {
+	astronomy *astronomy.Service
+}
 
 // NewService creates a new birth chart service
 func NewService() *Service {
-	return &Service{}
+	return &Service{
+		astronomy: astronomy.NewService(),
+	}
 }
 
 // CalculateBirthChart calculates a complete birth chart for the given UTC date, time, and coordinates
@@ -49,12 +56,16 @@ func (s *Service) CalculateBirthChart(datetime time.Time, coords Coordinates) (*
 		return nil, fmt.Errorf("birth date cannot be in the future")
 	}
 
+	// Calculate houses first
+	houses, err := s.astronomy.CalculateRisingSign(datetime, coords.Latitude, coords.Longitude)
+	if err != nil {
+		return nil, fmt.Errorf("failed to calculate houses: %w", err)
+	}
+
 	planets := []Planet{}
 
-	// TODO: Implement remaining calculations
-	// 1. Calculating planetary positions
+	// Calculate positions for each celestial body
 	bodies := []string{
-		"Rising",
 		"Sun",
 		"Moon",
 		"Mercury",
@@ -72,36 +83,39 @@ func (s *Service) CalculateBirthChart(datetime time.Time, coords Coordinates) (*
 
 		planets = append(planets, Planet{
 			Name:     body,
-			Position: *position,
+			Position: position,
 			Sign:     "",
 			House:    0,
 		})
 	}
 
-	// 2. Determining zodiac signs
-	// 3. Calculating house positions
-	// 4. Determining aspects between planets
+	// TODO: Implement remaining calculations
+	// 1. Determining zodiac signs
+	// 2. Calculating house positions
+	// 3. Determining aspects between planets
 
 	return &BirthChart{
 		DateTime:    datetime,
 		Coordinates: coords,
 		Planets:     planets,
+		Houses:      houses,
 	}, nil
 }
 
 // CalculatePlanetaryPosition calculates the position of a specific planet
-func (s *Service) CalculatePlanetaryPosition(datetime time.Time, coords Coordinates, planet string) (*Position, error) {
+func (s *Service) CalculatePlanetaryPosition(datetime time.Time, coords Coordinates, planet string) (*astronomy.Position, error) {
 	if datetime.After(time.Now()) {
 		return nil, fmt.Errorf("date cannot be in the future")
 	}
 
-	// TODO: Implement actual planetary position calculation
-	// This will involve:
-	// 1. Using astronomical algorithms to calculate planetary positions
-	// 2. Converting coordinates to zodiac degrees
+	switch planet {
+	case "Sun":
+		return s.astronomy.CalculateSunPosition(datetime)
 
-	return &Position{
-		Degrees: 0,
-		Minutes: 0,
-	}, nil
+	case "Moon":
+		return s.astronomy.CalculateMoonPosition(datetime)
+
+	default:
+		return nil, fmt.Errorf("unsupported planet: %s", planet)
+	}
 }

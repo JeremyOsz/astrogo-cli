@@ -1,5 +1,10 @@
 # Astrogo CLI
 
+NOTE: This is a POC - It is abandoned due to the difficulty of getting the Swiss Ephemeris library to work with Go - I've left the code here for reference.
+
+The Swiss Ephemeris library is a C library for astronomical calculations. It is required to be installed and linked on the same machine as the Go code - thus the need to install it on the server adding a dependency to the project not suitable for a side project.
+
+
 A command-line interface tool for astrology calculations and analysis, built with Go. This project serves as a sandbox for exploring Go CLI development and astrology calculations.
 
 ## Features

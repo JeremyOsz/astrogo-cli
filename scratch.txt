@@ -1,0 +1,22 @@
+Planetary calculations:
+- Sun position
+- Moon position
+- Other planetary positions (Mercury, Venus, Mars, etc.)
+- Aspects between planets
+
+House system calculations:
+- Ascendant (Rising sign)
+- Midheaven
+- House cusps
+
+Location handling:
+- Converting location names to coordinates
+- Handling timezone calculations
+
+
+Coords:
+	case "London, UK":
+		coords = Coordinates{
+			Latitude:  51.5074,
+			Longitude: -0.1278,
+		}

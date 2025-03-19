@@ -34,7 +34,11 @@ go build
 
 ## Usage
 
-[Add specific command examples and usage instructions here]
+```bash
+astrogo-cli [command]
+astrogo-cli starsign // Get your horoscope based on star sign
+astrogo-cli db start // Start the database
+```
 
 ## Project Structure
 

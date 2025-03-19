@@ -1,7 +1,7 @@
 package horoscope
 
 import (
-	"astrogo-cli/internal/service"
+	service "astrogo-cli/internal/service/horoscope"
 	"fmt"
 
 	"github.com/spf13/cobra"
